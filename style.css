@@ -46,7 +46,10 @@ h3{font-size:20px}
 h4{font-size:20px}
 h5{font-size:18px}
 ul{list-style: none}
-li::before{content: "\f121"}
+li::before{
+  content: "\f121";
+  font-family: FontAwesome;
+}
 
 body {
   margin: 0;
